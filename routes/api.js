@@ -69,7 +69,7 @@ function APIRouter(app) {
     // Normal APIs
 
     const signUpRatelimit = new Ratelimit(require("../util/RatelimitStore")("SignUp"), {
-        freeRetries: 3, // 3 sign ups per hour
+        freeRetries: 3000, // 3 sign ups per hour
         attachResetToRequest: false,
         refreshTimeoutOnRequest: false,
         minWait: 60 * 60 * 1000, // 1 hour

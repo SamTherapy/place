@@ -28,7 +28,7 @@
       "url": "https://ericrabil.com"
     }
   ],
-  "license": "AGPLv3",
+  "license": "AGPL-3.0-only",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
